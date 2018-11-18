@@ -1,0 +1,162 @@
+/* Primary Rules */
+
+body {
+  background-color: #c8f2fa;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+#allbodycontent {
+  width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1 {
+  font-size: 150%;
+}
+
+h2 {
+  font-size: 120%;
+}
+
+/* Header Area Rules */
+
+#header {
+  background-image: url(./images/TB_black.gif);
+  background-position: left;
+  background-repeat: no-repeat;
+  height: 200px;
+}
+
+#header h1 {
+  text-align: center;
+  padding-top: 100px;
+  font-size: 250%;
+}
+
+/* Navigation Area Rules */
+
+#nav {
+  float: left;
+  width: 150px;
+  background-color: #ffdf99;
+  border: 2px black solid;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+#nav h2 {
+  text-align: center;
+}
+
+#nav ul {
+  list-style: none;
+}
+
+#nav li {
+  padding: 30px 0px 30px 0px;
+}
+
+#nav a {
+  text-decoration: none;
+  color: black;
+}
+
+#nav a:hover {
+  background-color: #65ccdf;
+}
+
+/* Sidebar Area Rules */
+
+#sidebarRight {
+  float: right;
+  width: 250px;
+  background-color: #ffdf99;
+  border: black 2px solid;
+  margin: 10px 0px 0px 10px;
+  padding: 10px;
+}
+
+#sidebarRight h2 {
+  text-align: center;
+}
+
+#sidebarRight h3 {
+  font-size: 100%;
+}
+
+/* Mainbody Area Rules */
+
+#mainbody h2{
+  text-align: center;
+}
+
+/* Footer Area Rules */
+
+#footer {
+  padding-top: 5px;
+  clear: both;
+  font-size: 70%;
+  text-align: center;
+}
+
+/* Portfolio Sidebar Rules */
+
+#portSidebar {
+  float: right;
+  width: 250px;
+  background-color: #ffdf99;
+  border: black 2px solid;
+  margin: 10px 0px 0px 10px;
+  padding: 10px;
+}
+
+#portSidebar h2 {
+  text-align: center;
+}
+
+/* Port Main Body Area Rules */
+
+#portMain {
+  margin-left: 154px;
+  margin-right: 274px;
+  width: 372px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#portMain h2 {
+  text-align: center;
+}
+
+#portMain h3 {
+  font-size: 100%;
+  text-align: center;
+}
+
+iframe {
+  border: 0px;
+}
+
+/* Team Main Body Area Rules */
+
+#teambody {
+  margin-left: 154px;
+  margin-right: 274px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#teambody h2, h3 {
+  text-align: center;
+}
+
+#teambody img
+
+/* Contact Form Rules */
+
+table td.submitReset {
+  text-align: center;
+}
